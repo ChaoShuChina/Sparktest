@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 舒超的个人博客
-subtitle:
+title: 舒超个人博客
+subtitle: 创新驱动未来
 description:
 author: Snow Shu
 language:
@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:ChaoShuChina/chaoshuchina.github.com.git
+  branch: master
